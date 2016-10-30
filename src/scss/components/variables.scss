@@ -2,14 +2,17 @@ $grid-gutter: 15px;
 $block-padding-height: 130px;
 $font-family-base: 'Source Sans Pro';
 $font-size-base: 22px;
+$line-height-base: 1.55;
 $heading-font-family: 'Lato';
 $heading-font-size-1: 44px;
 $heading-margin-1: 40px;
 $p-margin-bottom: $heading-margin-1;
 $color-brand: #506a85;
 $color-primary: #00bc9c;
+$color-gray: #f2f5f7;
 $body-color: $color-brand;
 $link-color: $body-color;
+$link-color-hover: $color-primary;
 $container-width: 1165px;
 //form
 $form-color: #fff;

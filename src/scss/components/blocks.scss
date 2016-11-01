@@ -49,7 +49,7 @@ $block-padding-height: 20px !default;
 	}
 }
 .container {
-	width: $container-width;
+	max-width: $container-width;
 }
 .ul-menu {
 	list-style: none;

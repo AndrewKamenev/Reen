@@ -37,7 +37,7 @@
       opacity: 0.5; }
 
 .container {
-  width: 1200px; }
+  max-width: 1200px; }
 
 .ul-menu {
   list-style: none;

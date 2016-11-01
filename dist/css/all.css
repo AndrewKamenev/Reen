@@ -441,7 +441,7 @@ h6, .h6 {
       opacity: 0.5; }
 
 .container {
-  width: 1165px; }
+  max-width: 1165px; }
 
 .ul-menu {
   list-style: none;
@@ -746,10 +746,10 @@ input.form-control {
     color: #00bc9c; }
 
 .small-slider-prev {
-  left: 500px; }
+  left: 40%; }
 
 .small-slider-next {
-  right: 500px; }
+  right: 40%; }
 
 .footer {
   padding: 70px 0;

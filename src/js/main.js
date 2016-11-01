@@ -47,4 +47,9 @@ $(function(){
     $('.slider-main-next').on('click', function() {
     	$('.slider-main').trigger('next.owl.carousel');
     })
+    //position of small slider buttons
+    // var smallSliderLeft = $(".small-slider .owl-dot").first().offset();
+    // $('.small-slider-prev').css("left", smallSliderLeft.left);
+    // var smallSliderRight = $(".small-slider .owl-dot").last().offset();
+    // $('.small-slider-next').css("left", smallSliderRight.left);
 })

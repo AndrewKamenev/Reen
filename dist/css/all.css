@@ -784,3 +784,51 @@ input.form-control {
   margin: 0 -20px; }
 .col-small-padding .col-xs-6 {
   padding: 0 5px; }
+
+.mobile-menu {
+  text-align: center;
+  display: inline-block;
+  width: 50px;
+  cursor: pointer;
+  position: relative;
+  left: 32%;
+  display: none; }
+  .mobile-menu span {
+    height: 6px;
+    margin-bottom: 6px;
+    background-color: #506a85;
+    position: relative;
+    display: block; }
+
+@media (min-width: 300px) {
+  .container {
+    padding: 0 20px; } }
+
+@media (max-width: 768px) {
+  .header, .main, .footer {
+    font-size: 2em; }
+  .card-title, .card-text, .image-caption-title, .image-caption-content, .slider-main-content {
+    font-size: 1em; } }
+
+@media (max-width: 768px) {
+  .header, .main, .footer {
+    font-size: 2em; }
+  .card-title, .card-text, .image-caption-title, .image-caption-content, .slider-main-content {
+    font-size: 1em; } }
+
+@media (max-width: 1050px) {
+  .mobile-menu {
+    display: block; }
+  .navbar {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    z-index: 500;
+    background-color: #fff;
+    display: none; }
+    .navbar li {
+      display: block;
+      text-align: center; }
+      .navbar li a {
+        font-size: 2em; } }

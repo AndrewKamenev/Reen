@@ -47,6 +47,10 @@ $(function(){
     $('.slider-main-next').on('click', function() {
     	$('.slider-main').trigger('next.owl.carousel');
     })
+    //mobile 
+    $(".mobile-menu").click(function(){
+    	$(".navbar").show();
+    });
     //position of small slider buttons
     // var smallSliderLeft = $(".small-slider .owl-dot").first().offset();
     // $('.small-slider-prev').css("left", smallSliderLeft.left);
